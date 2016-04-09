@@ -1,0 +1,362 @@
+body {  
+	background-color:#ffffff;
+    height: 100%;
+	width:100%;
+	background-image:url(../images/imgBackGround.png);
+	background-repeat:repeat;
+}
+/*フォント*/
+.clsFontGothic{
+	font-family:"ＭＳ Ｐゴシック";
+	text-decoration: none;
+}
+.clsFontFranklinGothic{
+	font-family:"Franklin Gothic Medium";
+	text-decoration: none;
+}
+/*エラーメッセージ*/
+.clsErrMsg{
+	font-size:11px;
+	color:red;
+}
+/*注意文言*/
+.clsNotice{
+	padding-left:50px;
+	font-size:12px;
+	color:#000000;
+}
+/*#grid-content div {
+	margin-left: 10px;
+	margin-top: 7px;
+}*/
+
+
+/**************/
+/*トップページ*/
+/**************/
+#divContents{
+	min-width:641px;
+}
+#divTitle{
+	position:absolute;
+	top:10px;
+	margin-left:10px;
+}
+#divNav{
+	position:absolute;
+	top:30px;
+	margin-left:165px;
+	width:500px;
+}
+#navNew{
+	float:left;
+	margin-left:30px;
+}
+#navAccess{
+	float:left;
+	margin-left:57px;
+}
+#navBlog{
+	float:left;
+	margin-left:61px;
+}
+#navMail{
+	float:left;
+	margin-left:46px;
+}
+#navPointer {
+	top: 40px;
+	position: absolute;
+}
+#divWeather{
+	position:absolute;
+	top:420px;
+	margin-left:10px;
+	margin-right:0px;
+}
+#divImgWeather{
+	margin-left:13px;
+	margin-top:5px;
+}
+#divImgTokyo{
+	margin-left:30px;
+	margin-top:5px;
+}
+#divImgWeatherDtl{
+	margin-left:30px;
+	margin-top:8px;
+}
+#divTemp{
+	float:left;
+	margin-left:30px;
+	margin-top:3px;
+}
+#divImgTemp{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+#container{
+	position:relative;
+	top:133px;
+	padding-left:165px;
+}
+#divFooter{
+	margin-top:150px;
+	width:88px;
+	height:18px;
+}
+.clsMrgnLeft10{
+	margin-left:10px;	
+}
+.clsMrgnBtm10{
+	margin-bottom:10px;	
+}
+.clsTmp{
+	font-size:18px;
+	font-weight:bold;
+	color:#454545;
+}
+.clsWeatherErr{
+	font-size:9px;
+	color:#999999;
+}
+.clsMailMagMain {  
+   border-radius: 10px;         /* CSS3 */  
+   -moz-border-radius: 10px;    /* Firefox */  
+   -webkit-border-radius: 10px; /* Safari,Chrome */  
+  
+   background-color: #ffffff;   /* 背景色 */  
+   width: 465px;                /* 以下任意のCSS */  
+   height:680px;
+}  
+.clsAccessMain {  
+   border-radius: 10px;         /* CSS3 */  
+   -moz-border-radius: 10px;    /* Firefox */  
+   -webkit-border-radius: 10px; /* Safari,Chrome */  
+  
+   background-color: #ffffff;   /* 背景色 */  
+   width: 465px;                /* 以下任意のCSS */  
+   height:680px;
+} 
+.clsFacebook {  
+   border-radius: 10px;         /* CSS3 */  
+   -moz-border-radius: 10px;    /* Firefox */  
+   -webkit-border-radius: 10px; /* Safari,Chrome */  
+  
+   background-color: #ffffff;   /* 背景色 */  
+   width: 300px;                /* 以下任意のCSS */  
+   height:540px;
+}
+.clsWeather {  
+   border-radius: 7px;         /* CSS3 */  
+   -moz-border-radius: 7px;    /* Firefox */  
+   -webkit-border-radius: 7px; /* Safari,Chrome */  
+  
+   background-color: #ffffff;   /* 背景色 */  
+   width: 140px;                /* 以下任意のCSS */  
+   height:120px;
+} 
+
+/**************/
+/*New Arraival*/
+/**************/
+#divRow1{
+	height:700px;
+}
+#divImg1{
+	position:relative;
+	top:10px;
+	margin-left:648px;
+	width:300px;
+}
+#divImg2{
+	position:relative;
+	top:-250px;
+	margin-left:330px;
+	width:300px;
+}
+#divImg3{
+	position:relative;
+	top:-380px;
+	margin-left:10px;
+	width:300px;
+}
+#divImg4{
+	position:relative;
+	top:-780px;
+	margin-left:648px;
+	width:300px;
+}
+#divImg5{
+	position:relative;
+	top:-1040px;
+	margin-left:330px;
+	width:300px;
+}
+#divImg6{
+	position:relative;
+	top:-1170px;
+	margin-left:10px;
+	width:300px;
+}
+#divImg7{
+	position:relative;
+	top:-1570px;
+	margin-left:648px;
+	width:300px;
+}
+#divImg8{
+	position:relative;
+	top:-1830px;
+	margin-left:330px;
+	width:300px;
+}
+#divImg9{
+	position:relative;
+	top:-1960px;
+	margin-left:10px;
+	width:300px;
+}
+#divFooterNew{
+	margin-top:-1900px;
+}
+
+/**********/
+/*アクセス*/
+/**********/
+#divAccessMain{
+	width:465px;
+	height:680px;
+}
+#tblAccess{
+	margin-top:55px;
+	margin-left:50px;
+}
+#divMap{
+	margin-top:40px;
+	margin-left:22px;
+}
+#tblAccess th{
+	padding-top:3px;
+	padding-bottom:10px;
+}
+#tblAccess td{
+	padding-bottom:10px;
+}
+.clsID{
+	font-size:12px;
+	color:#454545;
+	margin-left:20px;
+}
+
+/****************/
+/*メールマガジン*/
+/****************/
+#divMailMagMain{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+#divMailMagTitle{
+	width:397px;
+	height:126px;
+	padding-left:25px;
+	padding-top:50px;
+}
+#divBtnPCMob{
+	width:397px;
+	height:65px;
+	padding-left:25px;
+	padding-top:40px;
+}
+#divBtnMailMagPC{
+	float:left;
+}
+#divBtnMailMagMob{
+	float:right;
+}
+#divImgMailMagMsg{
+	width:397px;
+	height:30px;
+	padding-top:25px;
+	padding-left:25px;
+}
+#divIndexRow01{
+	width:435px;
+}
+#divIndex01{
+	padding-top:25px;
+	padding-left:25px;
+	float:left;
+}
+#divImgIndex01{
+	float:left;	
+}
+#divIndex01Dtl{
+	padding-left:5px;
+	float:right;	
+}
+#index01Dtl{
+	margin-top:10px;	
+}
+#divIndex02{
+	padding-top:25px;
+	float:right;
+}
+#divImgIndex02{
+	float:left;	
+}
+#divIndex02Dtl{
+	padding-left:5px;
+	float:right;	
+}
+#index02Dtl{
+	margin-top:10px;	
+}
+
+#divIndexRow02{
+	clear:both;
+	width:425px;
+}
+#divIndex03{
+	padding-top:25px;
+	padding-left:25px;
+	float:left;
+}
+#divImgIndex03{
+	float:left;	
+}
+#divIndex03Dtl{
+	padding-left:5px;
+	float:right;	
+}
+#index03Dtl{
+	margin-top:10px;	
+}
+
+#divIndex04{
+	padding-top:25px;
+	float:right;
+}
+#divImgIndex04{
+	float:left;	
+}
+#divIndex04Dtl{
+	padding-left:5px;
+	float:right;	
+}
+#index04Dtl{
+	margin-top:10px;	
+}
+
+.clsIndexTitle{
+	font-size:13px;
+	font-weight:bold;
+}
+.clsIndex{
+	font-size:11px;
+}
+
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>Access -アクセス-</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="../css/contents.css" media="all">
+<script src="http://code.jquery.com/jquery-1.10.0.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="../js/jquery.vgrid.min.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="divContents">
+    <div id="divTitle">
+        <!--タイトル-->
+        <a href="../index.html"><img src="../images/imgTitle.png" alt="フラウムショップ" width="140" height="400"></a>
+    </div>
+    <div id="divNav">
+        <!--ナビゲーション-->
+        <div id="divNavBtn">
+            <ul id="ulNavBtn">
+                <li id="navNew"><a href="newarrivals.html"><img id="imgNavNewArrival" src="../images/navNewArrivals.gif" alt="新着商品" width="67" height="31"></a></li>
+                <li id="navAccess"><a href="access.html"><img id="imgNavAccess" src="../images/navAccess.gif" alt="アクセス" width="39" height="32"></a></li>
+                <li id="navBlog"><a href="#"><img id="imgNavBlog" src="../images/navStaffBlog.gif" alt="スタッフブログ" width="54" height="34"></a></li>
+                <li id="navMail"><a href="mailmagagine.html"><img id="imgNavMail" src="../images/navMailMagagine.gif" alt="メールマガジン" width="79" height="33"></a></li>
+            </ul>
+            <img src="../images/navPointer.gif" width="76" height="13" id="navPointer" alt="ナビゲーションポインタ" />
+        </div>
+    </div>
+    <div id="divWeather" class="clsWeather">
+        <!--ウェザー-->
+        <div id="divImgWeather">
+            <img src="../images/imgWeather.png" alt="ウェザー" width="113" height="21">
+        </div>
+        <div id="divImgTokyo">
+            <img src="../images/imgTokyo.png" alt="東京" width="80" height="18">
+        </div>
+        <div id="divImgWeatherDtl">
+            <p id="weatherErr"  class="clsFontGothic clsWeatherErr"></p>
+            <img id="weather" src="" alt="" width="1" height="1">
+        </div>
+        <div id="divTemp">
+            <p id="temp" class="clsFontGothic clsTmp"></p>
+        </div>
+        <div id="divImgTemp">
+            <img id="cel" src="" alt="" width="1" height="1">
+        </div>
+    </div>
+    <div id="divContainer">
+       <div id="container">
+            <div id="grid-content">
+                <div id="divAccessMain" class="clsAccessMain clsMrgnLeft10 clsMrgnBtm10">
+                    <!--アクセス-->
+                    <table id="tblAccess">
+                    	<tr>
+                        	<th><img id="imgAddress" src="../images/imgAddress.png" alt="Address" width="51" height="8"></th><td><span class="clsFontGothic clsID">港区北青山3丁目12-3</span></td>
+                        </tr>
+                        <tr>
+                        	<th><img src="../images/imgTel.png" alt="Tel" width="18" height="8"></th><td><span class="clsFontGothic clsID">03-1234-5678</span></td>
+                        </tr>
+                        <tr>
+                        	<th><img src="../images/imgOpen.png" alt="Tel" width="28" height="8"></th><td><span class="clsFontGothic clsID">11:00～21:00</span></td>
+                        </tr>
+                        <tr>
+                        	<th><img src="../images/imgFacebook.png" alt="Tel" width="46" height="8"></th><td><span class="clsFontGothic clsID">Flavum shop</span></td>
+                        </tr>
+                        <tr>
+                            <th><img src="../images/imgTwitter.png" alt="Tel" width="33" height="8"></th><td><span class="clsFontGothic clsID">fravum_shop</span></td>
+                        </tr>
+                    </table>
+                    <div id="divMap" class="clsMrgnLeft10 clsMrgnBtm10">
+                        <iframe width="422" height="379" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?oe=utf-8&amp;hl=ja&amp;q=%E6%B8%AF%E5%8C%BA%E5%8C%97%E9%9D%92%E5%B1%B1%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%923&amp;ie=UTF8&amp;hq=&amp;hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E5%8C%97%E9%9D%92%E5%B1%B1%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%93&amp;gl=jp&amp;t=m&amp;brcurrent=3,0x60188ca075675d6b:0x8044d2b8ae4f506a,0,0x60188b5f8b4628d7:0x69d05386c386da1&amp;ll=35.663573,139.710217&amp;spn=0.026359,0.036135&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.jp/maps?oe=utf-8&amp;hl=ja&amp;q=%E6%B8%AF%E5%8C%BA%E5%8C%97%E9%9D%92%E5%B1%B1%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%923&amp;ie=UTF8&amp;hq=&amp;hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E5%8C%97%E9%9D%92%E5%B1%B1%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%93&amp;gl=jp&amp;t=m&amp;brcurrent=3,0x60188ca075675d6b:0x8044d2b8ae4f506a,0,0x60188b5f8b4628d7:0x69d05386c386da1&amp;ll=35.663573,139.710217&amp;spn=0.026359,0.036135&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>
+                    </div>
+                </div>
+                <div id="divFacebook" class="clsFacebook clsMrgnLeft10 clsMrgnBtm10">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/FlavumShop?hc_location=timeline" data-width="300" data-height="540" data-show-faces="false" data-stream="true" data-show-border="false" data-header="false"></div>
+                </div>
+                <div id="divCoupon" class="clsMrgnLeft10 clsMrgnBtm10">
+                    <img src="../images/imgCoupon.png" alt="クーポン" width="300" height="260">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divFooter">	
+    <!--フッター-->
+    <a href="#divContents"><img src="../images/imgBtnPageTop.gif" alt="ページトップへ" width="89" height="19"></a>
+	</div> 
+</div>
+</body>
+</html>
+

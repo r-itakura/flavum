@@ -1,0 +1,168 @@
+body {  
+	background-color:#ffffff;
+    height: 100%;
+	width:100%;
+}
+/*フォント*/
+.clsFontGothic{
+	font-family:"ＭＳ Ｐゴシック";
+	text-decoration: none;
+}
+.clsFontFranklinGothic{
+	font-family:"Franklin Gothic Medium";
+	text-decoration: none;
+}
+/*エラーメッセージ*/
+.clsErrMsg{
+	font-size:11px;
+	color:red;
+}
+/*注意文言*/
+.clsNotice{
+	padding-left:50px;
+	font-size:12px;
+	color:#000000;
+}
+
+/**************/
+/*メルマガ登録*/
+/**************/
+#divRgst{
+	clear:both;
+	width:686px;
+	overflow:hidden;
+	margin:auto;
+}
+#divRgstHead{
+	margin-top:33px;
+}
+#divRgstNav{
+	height:46px;
+	margin-top:18px;	
+}
+li{
+	float:left;	
+}
+#liImgInAddr{
+	margin-left:68px;
+}
+#liImgConfirm{
+	margin-left:30px;
+}
+#liImgComplete{
+	margin-left:30px;
+}
+#divMailMagTitle{
+	clear:both;
+	margin-top:30px;
+	margin-bottom:47px;
+}
+#divErrMsg{
+	margin-left:10px;
+}
+#divImgMailHead{
+	float:left;
+	height:29px;
+}
+
+#divTxtMail{
+	float:left;
+	margin-top:3px;
+	margin-left:10px;
+}
+hr{
+	border:solid 1px #cccccc;
+	margin-bottom:1px;
+}
+#hr1{
+	
+}
+#hr2{
+	clear:both;
+}
+#hr3{
+	clear:both;
+}
+#hr4{
+	clear:both;
+}
+select{
+	font-size:12px;
+	color:#000000;
+}
+#divImgBirthHead{
+	float:left;
+	height:29px;
+}
+#divSelBirth{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+}
+#divImgAddrHead{
+	float:left;
+	height:29px;
+}
+#divSelAddr{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+}
+#divRgstMsg{
+	width:340px;
+	margin:8px auto;
+}
+#divBtnConf{
+	width:147px;
+	margin:auto;
+}
+.clsSize11{
+	font-size:11px;
+	color:#000000;
+}
+.clsSize13{
+	font-size:13px;
+	color:#000000;
+}
+
+/**********/
+/*登録確認*/
+/**********/
+#divBirth{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+}
+#divAddr{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+}
+#divConfMsg{
+	width:340px;
+	margin:8px auto;
+}
+#divBtnCommit{
+	width:316px;
+	margin:auto;
+}
+#divBtnBack{
+	float:left;
+}
+#divBtnRegist{
+	float:right;
+}
+
+/**********/
+/*登録完了*/
+/**********/
+#divCompMsg{
+	width:340px;
+	margin-top:50px;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+#divBtnTop{
+	width:147px;
+	margin:auto;
+}

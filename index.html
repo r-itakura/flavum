@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>flavum -フラウム- </title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/contents.css" media="all">
+<script src="http://code.jquery.com/jquery-1.10.0.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/jquery.vgrid.min.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="divContents">
+    <div id="divTitle">
+        <!--タイトル-->
+        <h1><a href="index.html"><img src="images/imgTitle.png" alt="フラウムショップ" width="140" height="400"></a></h1>
+    </div>
+    <div id="divNav">
+        <!--ナビゲーション-->
+        <div id="divNavBtn">
+            <ul id="ulNavBtn">
+                <li id="navNew"><a href="contents/newarrivals.html"><img id="imgNavNewArrival" src="images/navNewArrivals.gif" alt="新着商品" width="67" height="31"></a></li>
+                <li id="navAccess"><a href="contents/access.html"><img id="imgNavAccess" src="images/navAccess.gif" alt="アクセス" width="39" height="32"></a></li>
+                <li id="navBlog"><a href="#"><img id="imgNavBlog" src="images/navStaffBlog.gif" alt="スタッフブログ" width="54" height="34"></a></li>
+                <li id="navMail"><a href="contents/mailmagagine.html"><img id="imgNavMail" src="images/navMailMagagine.gif" alt="メールマガジン" width="79" height="33"></a></li>
+            </ul>
+            <img src="images/navPointer.gif" width="76" height="13" id="navPointer" alt="ナビゲーションポインタ"/>
+        </div>
+    </div>
+    <div id="divWeather" class="clsWeather">
+        <!--ウェザー-->
+        <div id="divImgWeather">
+            <img src="images/imgWeather.png" alt="ウェザー" width="113" height="21">
+        </div>
+        <div id="divImgTokyo">
+            <img src="images/imgTokyo.png" alt="東京" width="80" height="18">
+        </div>
+        <div id="divImgWeatherDtl">
+            <p id="weatherErr"  class="clsFontGothic clsWeatherErr"></p>
+            <img id="weather" src="" alt="" width="1" height="1">
+        </div>
+        <div id="divTemp">
+            <p id="temp" class="clsFontGothic clsTmp"></p>
+        </div>
+        <div id="divImgTemp">
+            <img id="cel" src="" alt="" width="1" height="1">
+        </div>
+    </div>
+    <div id="container">
+        <div id="grid-content">
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgMainView.png" alt="おすすめアイテム" width="300" height="400">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgTwitterLogo.png" alt="ツイッター" width="140" height="120">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgModel.png" alt="イメージモデル" width="139" height="257">
+            </div>
+            <div id="divFacebook" class="clsFacebook clsMrgnLeft10 clsMrgnBtm10">
+                <div class="fb-like-box" data-href="https://www.facebook.com/FlavumShop?hc_location=timeline" data-width="300" data-height="540" data-show-faces="false" data-stream="true" data-show-border="false" data-header="false"></div>
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgItem1.png" alt="おすすめアイテム" width="140" height="120">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgItem2.png" alt="おすすめアイテム" width=
+                "140" height="120">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgAccess.png" alt="アクセス" width="300" height="260">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgItem3.png" alt="フラウム店舗イメージ" width="140" height="120">
+            </div>
+            <div class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgItem4.png" alt="フラウム店舗イメージ" width="140" height="120">
+            </div>
+            <div id="divCoupon" class="clsMrgnLeft10 clsMrgnBtm10">
+                <img src="images/imgCoupon.png" alt="クーポン" width="300" height="260">
+            </div>
+        </div>
+    </div> 
+    <div id="divFooter">	
+    <!--フッター-->
+    <a href="#divContents"><img src="images/imgBtnPageTop.gif" alt="ページトップへ" width="89" height="19"></a>
+	</div> 
+</div>
+
+</body>
+</html>
+
